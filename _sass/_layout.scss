@@ -25,6 +25,7 @@
 
 .post-title {
     display: block;
+    padding-bottom: 1rem;
 }
 
 /**
@@ -56,11 +57,14 @@
  * Misc
  */
 .preview-panel {
-    padding: 1rem;
     box-sizing: border-box;
-    border: 1px solid $color-initial;
-    
-    &:hover {
-        border: 1px solid $grey-color-light;
+    text-align: center;
+    img {
+        padding: 1rem;
+        border: 1px solid $color-initial;
+        
+        &:hover {
+            border: 1px solid $grey-color-light;
+        }
     }
 }

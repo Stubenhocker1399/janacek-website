@@ -1,9 +1,9 @@
 # Site settings
-title: Heike Janacek-Multhaupt
+title: Heike Caroline Janacek-Multhaupt
 email: multhaupt@osnanet.de
 description: > # this means to ignore newlines until "baseurl:"
-  Homepage von Heike Janacek-Multhaupt
-  Kunst und mehr
+  Querschnitt verschiedener Arbeiten in Öl und Acryl von Heike Caroline Janacek-Multhaupt.
+  Herzlich willkommen auf meiner Web-Seite
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://janacek-multhaupt.de" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
@@ -12,3 +12,12 @@ url: "http://janacek-multhaupt.de" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 permalink: pretty
+collections_dir: collections
+collections:
+  output: true
+  misc:
+    output: true
+    permalink: /:name
+  galerie:
+    output: true
+    permalink: /:collection/:name

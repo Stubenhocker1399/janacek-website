@@ -13,3 +13,48 @@
 img {
 	max-width: 100%;
 }
+
+ul {
+    list-style: none;
+}
+
+p > img, p > a > img, li > a > img {
+	max-width: 95%;
+	margin: auto;
+	display: block;
+    margin-bottom: 2.5rem;
+    @media (min-width: 40.0rem) {
+        max-width: 60%;
+    }
+}
+
+.gallery {
+    img {
+        margin-bottom: 7.5rem;
+    }
+}
+
+.horizontal-3 {
+    p > a {
+        float: left;
+        width: 33.33%;
+        margin-bottom: 7.5rem;
+
+        padding: 5px;
+        &:first-child {
+            padding-left: 0;
+        }
+        &:last-child {
+            padding-right: 0;
+        }
+        &::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        img {
+            max-width: 100%;
+            margin-bottom: 0;
+        }
+    }
+}

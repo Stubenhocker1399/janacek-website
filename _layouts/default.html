@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 
   {% include head.html %}
 
@@ -20,5 +20,29 @@
     {% include scripts.html %}
     
   </body>
+
+
+  <script>
+      //import LuminousGallery from "{{ '/js/Luminous.min.js' | prepend: site.baseurl }}";
+     // var Luminous = require('luminous-lightbox').Luminous;
+      //new LuminousGallery(document.querySelectorAll(".gallery-image"));
+      //new document.Luminous(document.querySelectorAll(".gallery-image"));
+
+      //new Luminous(document.querySelector(".simple-demo"));
+      new LuminousGallery(
+        document.querySelectorAll(".gallery-image"),
+        {
+          arrowNavigation: true
+        },
+        {
+          caption: function(trigger) {
+            return trigger.querySelector("img").getAttribute("alt");
+          }
+        }
+      );
+      document.querySelectorAll(".lightbox-image").forEach(element => {
+        new Luminous(element);
+      });
+  </script>
 
 </html>
