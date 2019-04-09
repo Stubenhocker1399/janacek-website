@@ -6,7 +6,7 @@ preview: /assets/img/misc/austellungen/preview.jpg
 
 # 2006/2007 Vielfalt
 
-Bauverein Sprokövel
+Bauverein Sprockhövel
 
  - Uta Brass
  - Gitti Heise
@@ -83,7 +83,7 @@ Arbeiten aus den Jahren 1986 bis 2013
 
 Museum Villa Stahmer
 
-Künstlerarbeiten zugunste der Osnabrücker Krebsstiftung
+Künstler arbeiten Zugunsten der Osnabrücker Krebsstiftung
 
 <a class="lightbox-image" href="/assets/img_full/misc/austellungen/Kunst für Leben- Auge.jpg">
     <img alt='Das Auge "Europas Zukunft"' src="/assets/img/misc/austellungen/Kunst für Leben- Auge.jpg">
