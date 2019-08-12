@@ -4,6 +4,18 @@ title:  "Austellungen"
 preview: /assets/img/misc/austellungen/preview.jpg
 ---
 
+# 2019 Was wir essen - woher es kommt
+
+Museum Villa Stahmer
+
+Verschiedene Vereine, Institutionen und Künstler haben sich mit diesem 
+Projekt auseinandergesetzt und zeigen
+die unterschiedlichsten Arbeiten zum Thema Nahrung.
+
+<a class="lightbox-image" href="/assets/img_full/misc/austellungen/Salz.jpg">
+    <img alt="Austellungsplakat Vielfalt" src="/assets/img/misc/austellungen/Salz.jpg">
+</a>
+
 # 2006/2007 Vielfalt
 
 Bauverein Sprockhövel
