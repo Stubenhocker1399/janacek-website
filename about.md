@@ -4,8 +4,8 @@ title: about
 permalink: /about/
 ---
 
-<a class="lightbox-image" href="/assets/img_full/about1.jpg">
-    <img alt="Por­t­rät Heike Caroline Janacek-Multhaupt" src="/assets/img/about1.jpg">
+<a class="lightbox-image" href="/assets/img_full/about2.jpg">
+    <img alt="Por­t­rät Heike Caroline Janacek-Multhaupt" src="/assets/img/about2.jpg">
 </a>
 Geboren 1958 in Neukirchen-Vluyn am Niederrhein
  
